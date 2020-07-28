@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "Hesam Alavi",
   "license": "MIT",
+   "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
   "dependencies": {
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1"
